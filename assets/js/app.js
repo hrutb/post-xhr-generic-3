@@ -251,6 +251,7 @@ function updateSinglePost(updateObj){
     
         addPost.classList.remove('d-none');
         updatePost.classList.add('d-none');
+        postForm.reset();
         col.scrollIntoView({block:'center',behavior:'smooth'});
 
 }
