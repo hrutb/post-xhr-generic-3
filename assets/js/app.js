@@ -205,8 +205,8 @@ function editPost(editObj){
        titleControl.value= editObj.title ;
        bodyControl.value= editObj.body;
  
-    addPost.classList.add('d-none');
-    updatePost.classList.remove('d-none');
+      addPost.classList.add('d-none');
+      updatePost.classList.remove('d-none');
 
 }
 
