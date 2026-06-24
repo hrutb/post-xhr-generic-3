@@ -119,7 +119,7 @@ function makeApiCall(method,url,body=null,successCb,errorCb){
       
            makeApiCall('POST',post_url,newObj,createSingleCard,snackbar);
            snackbar('post added successfully..!', 'success');
-     
+           postForm.reset();
     
     }
 
